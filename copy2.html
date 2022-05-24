@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;  
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}   
+.container .left-side{
+    position: relative;
+    background: #002e4d;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.profileText .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h2{
+    color: #fff;
+    font: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;   
+}
+
+.profileText span{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.ContactInfo{
+    padding-top: 10px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
+}
+
+.title{
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 20px;
+}
+
+.ContactInfo ul {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+
+.ContactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: #03a9f4;
+    text-align: center;
+}
+
+.Education ul li{
+    margin-bottom: 15px;
+    margin-top: -15px;
+
+}
+.Education h5{
+     color: #03a9f4;
+     font-weight: 800;
+}
+.Education h4{
+    color: #fff;
+    font-weight: 500;
+}
+.Education .title{
+    color: #fff;
+}
+
+.title{
+    color: #fff;
+}
+.language ul{
+    color: #fff;
+   
+}
+.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+
+
+}
+
+.language .percent div{
+    position: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+
+
+.container .right-side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-top: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase ;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #333;
+    
+}
+
+.aboutskill .box .text h4{
+    color: red;
+}
+
+.intrest ul {
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="profileText">
+          <div class="imgBox">
+            <img
+              src="project 1/img1/londn.jpg"
+              alt=""
+            />
+          </div>
+          <h2>Bijoy Rakshit<br/><span>Web Developer</span></h2>
+        </div>
+        <div class="ContactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
+              <span class="text">+91 9836 867 907</span>
+            </li>
+
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope" aria-hidden="true"></i>
+              </span>
+              <span class="text">rakshit.bijoy@gmail.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-globe" aria-hidden="true"></i
+              ></span>
+              <span class="text">www.fact.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <span class="text">www.linkedin.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
+              <span class="text">West Bengal, kolkata, India</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="Education">
+          <h3 class="title">EDUCATION</h3>
+          <ul>
+            <li>
+              <h5>2015 - 2018</h5>
+              <h4>Computer Science Technology</h4>
+              <h4>JCEM</h4>
+            </li>
+            <li>
+              <h5>2011 - 2013</h5>
+              <h4>Higher Secondary Exam</h4>
+              <h4>WBCHSE</h4>
+            </li>
+            <li>
+              <h5>2011</h5>
+              <h4>Secondary Exam</h4>
+              <h4>WBSE</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="language">
+          <h3 class="title">Language</h3>
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <span class="percent">
+                <div style="width: 70%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Hindi</span>
+              <span class="percent">
+                <div style="width: 80%"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Bengali</span>
+              <span class="percent">
+                <div style="width: 100%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-side">
+          <div class="about">
+              <h2 class="title2">Profile</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, itaque ut magnam voluptates cumque modi iusto. Debitis optio non architecto, enim delectus maiores itaque, dolorem excepturi reiciendis adipisci, aliquam harum.</p>
+          </div>
+          <div class="about">
+              <h2 class="title2">Experience</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, asperiores! Cum, itaque. Necessitatibus, amet. Nobis odit magni, nisi unde delectus quo voluptatibus possimus facere dolorum distinctio asperiores obcaecati fugiat iusto.</p>
+          </div>
+          <div class="aboutskill">
+              <h2 class="title2">
+                    Professional Skills
+              </h2>
+              <div class="box">
+                  <h4>HTML</h4>
+                  <div class="percent"></div>
+              </div>
+
+              <div class="box">
+                <h4>CSS</h4>
+                <div class="percent">
+                </div>
+            </div>
+            <div class="box">
+                <h4>JAVA</h4>
+                <div class="percent"></div>
+            </div>
+            <div class="box">
+                <h4>JAVA SCRIPT</h4>
+                <div class="percent"></div>
+            </div>
+            <div class="box">
+                <h4>DATA STRUCTURE</h4>
+                <div class="percent"></div>
+            </div>
+            <div class="box">
+                <h4>DIGITAL MARKETING</h4>
+                <div class="percent"></div>
+            </div>
+              
+          </div>
+          <div class=" intrest">
+              <h2 class="titile2">INTREST</h2>
+              <ul>
+                  <li>Gaming</li>
+                  <li>singing</li>
+                  <li>Traveling</li>
+                  <li>Cooking</li>
+              </ul>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
