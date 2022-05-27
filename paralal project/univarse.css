@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.main{
+    background-image: url(main.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.textbg{
+    background: rgba(56, 39, 3, 0.89);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+.section{
+    padding:50px 80px ;
+    text-align: center;
+    /* background-color: #282e34;
+    color: #ddd; */
+}
+.section-light {
+    background-color: rgba(41, 32, 12, 0.89);
+    color: #ddd;
+}
+
+/* 2nd */
+
+.main2{
+    background-image: url(main2.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.textbg2{
+    background: rgba(8, 17, 6, 0.959);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+.section-dark {
+    background-color: rgba(27, 37, 26, 0.959);
+    color: #ddd;
+}
+
+/* 3rd */
+
+.main3{
+    background-image: url(main3.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.textbg3{
+    background: rgba(20, 18, 11, 0.911);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+}
+.section-mid{
+    background-color: rgba(24, 21, 11, 0.911);
+    color: rgb(202, 204, 189);
+}
+
+ 
+ 
